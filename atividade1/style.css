@@ -1,0 +1,377 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    grid-column: 1;
+}
+
+.div1 {
+    justify-content: center;
+    border: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    grid-column: 1;
+    max-height: 444px;
+    overflow-y: auto;
+}
+
+.tabela1 {
+    background-color: white;
+    border: 2px solid gray;
+    width: 100%;
+    font-size: 8px;
+}
+
+.table_head {
+    color:rgb(17, 72, 201);
+    background-color: rgb(247, 235, 235);
+    text-align: left;
+}
+
+.tr1 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr2 {
+    background-color: rgb(212, 253, 5);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr3 {
+    background-color:rgb(164, 189, 39);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr4 {
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr5 {
+    background-color: rgb(31, 167, 31);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr6 {
+    background-color: rgb(14, 209, 14);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr7 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr8 {
+    background-color:pink;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+
+.tr9 {
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr10 {
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr11 {
+    background-color:orange;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr12 {
+    background-color:rgb(249, 181, 53);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr13 {
+    background-color:lightblue;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr14 {
+    background-color:rgb(255, 238, 241);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr15 {
+    background-color:rgb(163, 100, 187);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr16 {
+    background-color:rgb(232, 145, 160);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr17 {
+    background-color:rgb(128, 90, 231);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr18 {
+    background-color:rgb(209, 249, 148);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr19 {
+    background-color:rgb(216, 216, 3);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr20 {
+    background-color:rgb(167, 72, 88);
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr21 {
+    background-color:rgb(255, 255, 139);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr22 {
+    background-color:rgb(220, 181, 21);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr23 {
+    background-color:rgb(184, 145, 252);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.tr24 {
+    background-color:rgb(84, 161, 244);
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: 8px;
+}
+
+.menu {
+    border-collapse: collapse;
+    display: flex;
+    gap: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-top: 13px;
+}
+
+.botao:hover{
+    background-color: rgb(80, 126, 134);
+}
+
+.botao {
+    margin: 0 !important;
+    border-radius: 5px 5px 0px 0px;
+    border-collapse: collapse;
+    background-color: rgb(54, 129, 143);
+    color: white;
+    font-size: 8px;
+}
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+    grid-column: 1;
+}
+
+.botao-novo:hover {
+    background-color: rgb(51, 51, 182);
+}
+
+.botao-novo {
+    background-color: rgb(36, 199, 36);
+    color: white;
+    height: 45%;
+    font-size: 8px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.barra {
+    margin: 0 !important;
+    padding-bottom: 0;
+    height: 47px;
+    width: auto;    
+    background-color: rgb(64, 180, 64);
+}
+
+.menu button {
+    margin: 0 !important;
+}
+
+.topo{
+    display: flex;
+    gap: 5px;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-right: 4px;
+    height: 30px;
+    width: auto;
+}
+
+.imagem {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    right: 8px;
+    top: 4px;
+    position: absolute;
+}
+
+.label-barra {
+    color: white;
+    font-size: 8px;
+}
+
+.input-barra{
+    height: 8px;
+    border-radius: 8px;
+    font-size: 8px;
+}
+
+.select-barra{
+    height: 10px;
+    font-size: 8px;
+}
+
+.filtros{
+    padding: 0;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+.centro {
+    text-align: center;
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+}
+
+.sidebar {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background-color: rgb(230, 229, 229);
+    padding: 3px 5px 3px 5px;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+}
+
+.links{
+    font-size: 8px;
+}
+
+.bloco2-sidebar {
+    display: block;
+}
+
+.legenda-sidebar{
+    font-size: 8px;
+}
+
+.fieldset-sidebar{
+    border-radius: 4px;
+}
