@@ -1,0 +1,375 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.menu {
+    border-collapse: collapse;
+    display: flex;
+    gap: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-top: 13px;
+}
+
+.botao:hover{
+    background-color: rgb(80, 126, 134);
+}
+
+.botao {
+    margin: 0 !important;
+    border-radius: 5px 5px 0px 0px;
+    border-collapse: collapse;
+    background-color: rgb(44, 105, 116);
+    color: white;
+    font-size: 8px;
+}
+
+.botao-novo:hover {
+    background-color: rgb(51, 51, 182);
+}
+
+.botao-novo {
+    background-color: rgb(36, 199, 36);
+    color: white;
+    height: 45%;
+    font-size: 8px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.barra {
+    margin: 0 !important;
+    padding-bottom: 0;
+    height: 47px;
+    width: auto;    
+    background-color: rgb(64, 180, 64);
+}
+
+.menu button {
+    margin: 0 !important;
+}
+
+.topo{
+    display: flex;
+    gap: 5px;
+}
+
+.logo {
+    padding-top: 8px;
+    padding-right: 4px;
+    height: 30px;
+    width: auto;
+}
+
+.imagem {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    right: 8px;
+    top: 4px;
+    position: absolute;
+}
+
+.label-barra {
+    color: white;
+    font-size: 8px;
+}
+
+.input-barra{
+    height: 8px;
+    border-radius: 8px;
+    font-size: 8px;
+}
+
+.select-barra{
+    height: 10px;
+    font-size: 8px;
+}
+
+.filtros{
+    padding: 0;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.direita {
+    text-align: right;
+}
+
+.centro {
+    text-align: center;
+}
+
+.infos-up {
+    background-color: rgb(44, 105, 116);
+    width: 100%;
+    height: 10px;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.pagina {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 18px;
+    min-height: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: blue;
+}
+
+.links{
+    font-size: 8px;
+}
+
+.descricao {
+    padding: 5px;
+    align-items: center;
+    padding-bottom: 45px;
+    box-sizing: border-box;
+}
+
+.menu-descricao {
+    padding: 5px;
+    background-color: darkblue;
+}
+
+.titulo{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.notificacao {
+    padding: 5px;
+    padding-bottom: 170px;
+    font-size: 8px;
+    box-sizing: border-box;
+}
+
+.input-descricao {
+    width: 98%;
+    height: 8px;
+    font-size: 8px;
+}
+
+.tabela {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 8px;
+    margin-top: 5px;
+    border-left: 1px solid rgb(184, 182, 182);
+    border-right: 1px solid rgb(184, 182, 182);
+}
+
+.tabela th {
+    border-top: 1px solid rgb(184, 182, 182);
+    border-bottom: 1px solid rgb(184, 182, 182);
+    background-color: rgb(224, 224, 224);
+}
+
+.tabela td {
+    border-bottom: 1px solid rgb(184, 182, 182);
+    background-color: rgb(248, 247, 247);
+}
+
+.info2 {
+    padding: 0 0 10px 10px;
+    border: 1px solid darkblue;
+    display: grid;
+    grid-template-columns: 1fr 5%;
+    height: 98%;
+}
+
+.sidebar {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    background-color: rgb(44, 105, 116);
+    height: 135px;
+}
+
+.imgs-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.imgs-sidebar img {
+    width: 13px;
+    height: 13px;
+}
+
+.icone-sidebar{
+    background-color: rgb(50, 120, 133);
+    width: 70%;
+    height: 18.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-sidebar:hover {
+    transform: scale(1.1);
+}
+
+.icone-sidebar-selecionado{
+    background-color: rgb(44, 105, 116);
+    width: 70%;
+    height: 18.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-sidebar-selecionado:hover {
+    transform: scale(1.1);
+}
+
+.info1 {
+    height: 98%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.icones-radar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.icones-radar img {
+    width: 15px;
+    height: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.icones-radar img:hover {
+    transform: scale(1.1);
+}
+
+.radar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    gap: 0;
+}
+
+.circulo1 {
+    background-color: rgb(10, 185, 98);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: grid;
+}
+
+.circulo2 {
+    background-color:  rgb(235, 198, 38);
+    position: absolute;
+    width: 83%;
+    height: 83%;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: grid;
+}
+
+.circulo3 {
+    background-color: rgb(235, 198, 38);
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.circulo1,
+.circulo2 span {
+    color: white;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.span1-circulo2 {
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+.span2-circulo2 {
+    text-align: left;
+    padding-left: 13px;
+}
+
+.circulo1-cima {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 28px;
+    padding-right: 26px;
+}
+
+.span3-circulo1 {
+    padding-top: 195px;
+    padding-left: 145px;
+}
+
+.linha1{
+    background-color: white;
+    width: 60px;
+    height: 1px;
+    transform: translateX(120px) translateY(47px) rotate(90deg);
+    z-index: 999;
+}
+
+.linha2{
+    background-color: white;
+    width: 60px;
+    height: 1px;
+    transform: translateX(238px) translateY(215px) rotate(24deg);
+    z-index: 999;
+}
+
+.linha3{
+    background-color: white;
+    width: 27px;
+    height: 1px;
+    transform: translateX(10px) translateY(215px) rotate(150deg);
+    z-index: 999;
+}
